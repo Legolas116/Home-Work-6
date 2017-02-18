@@ -1,0 +1,86 @@
+
+
+.wrapper {
+	padding: 0 50px;
+}
+
+.project-name {
+	color: grey;
+}
+
+.tablo {
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+
+.tablo li{
+    display: inline-block;
+    background: #ddd;
+    padding: 1.5%;
+    border-right: 1px solid #bfbfbf;
+    width: calc(100% / 6 - 5%);
+}
+
+.tablo li a {
+	text-decoration: none;
+	color: grey;
+}
+
+.tablo li:first-child {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.tablo  li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+    border-width: 0;
+}
+.tablo li:hover {
+	box-shadow: inset 0 0 14px 1px #887b7b;
+	background: #a7a7a7;
+	cursor: pointer;
+}
+
+.marketying-stuff {
+	padding: 50px;
+	text-align: center;
+	background-color: #D2CFCF;
+}
+.marketying-stuff button {
+    padding: 15px;
+	font-size: 26px;
+	color: #fff;
+	background: green;
+	border: none;
+	border-radius: 10px;
+}
+
+.text {
+	display: block
+    background-color: #1d6d84;
+}
+
+.text .block {
+	display: inline-block;
+    vertical-align: top;
+	padding: 20px 0;
+	width: calc(32% - 20px * 2);
+	margin: 0 20px;
+
+}
+
+.text .block a {
+	padding: 10px 20px;
+	color: #fff;
+	background: #3f55ca;
+	text-decoration: none;
+	border: none;
+	font-family: Arial;
+	border-radius: 7px;
+}
+
+.footer {
+	margin-top: 75px;
+}
